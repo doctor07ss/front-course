@@ -1,0 +1,52 @@
+& {
+  padding: 1.9rem 0 1.9rem 6rem;
+  font-size: 0;
+  display: inline-block;
+  vertical-align: middle;
+
+  .action_button {
+    display: inline-block;
+    font-family: Open Sans,sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 2rem;
+    border: none;
+    background-color: transparent;
+  }
+
+  .action_button:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  .action_button_login {
+    padding: .65rem 2.3rem .75rem;
+    border: .2rem solid #2ca0ff;
+    transition: background-color .2s ease;
+    color: #2ca0ff;
+  }
+
+  .action_button_login:hover {
+    border-color: #2ca0ff;
+    background-color: #2ca0ff;
+    color: #fff;
+  }
+
+  .action_button_join {
+    position: relative;
+    padding: .65rem 2.3rem .75rem;
+    text-shadow: 0 0.1rem 0.1rem rgba(0,0,0,.35);
+    box-shadow: 0 0.1rem 0.1rem rgba(0,0,0,.5);
+    background-color: #ff7b0a;
+    transition: background-color .2s ease;
+    border: .2rem solid #ff7b0a;
+  }
+
+  .action_button_join:hover {
+    color: #fff;
+    border-color: #e76403;
+    background-color: #e76403;
+  }
+}

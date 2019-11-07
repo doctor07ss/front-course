@@ -1,0 +1,101 @@
+& {
+  display: inline-block;
+  float: left;
+  height: 100%;
+
+  .nav_link {
+    display: inline-block;
+    position: relative;
+    padding: 1.1rem 2.1rem 1.7rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    border-top: .4rem solid transparent;
+    transition: color .2s ease;
+
+    span {
+      display: block;
+    }
+
+    .nav_link_icon {
+      height: 2.9rem;
+      font-size: 2.4rem;
+      color: #34b4e6;
+      line-height: 1rem;
+      padding: .2rem 0 0;
+      display: block;
+    }
+
+    [class*=" styles_fa-"]:before, [class^=styles_fa-]:before {
+      font-family: fontello;
+      font-style: normal;
+      font-weight: 400;
+      speak: none;
+      display: inline-block;
+      text-decoration: inherit;
+      width: 1em;
+      margin-right: .2em;
+      text-align: center;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1em;
+      margin-left: .2em;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .fa-comments-o {
+      font-size: 3rem;
+    }
+
+    .fa-ladies, .fa-map-marker {
+      font-size: 2.8rem;
+    }
+
+    .fa-comments-o:before {
+      content: "\F0E6";
+    }
+
+    .fa-ladies:before {
+      content: "\E904";
+    }
+
+    .fa-video:before {
+      content: "\E80B";
+    }
+
+    .fa-map-marker:before {
+      content: "\E839";
+    }
+
+    .fa-search:before {
+      content: "\E801";
+    }
+
+    .nav_link_notification {
+      display: inline-block;
+      position: absolute;
+      top: 3rem;
+      right: 1.4rem;
+      padding: .2rem;
+      font-size: .8rem;
+      text-transform: uppercase;
+      line-height: 1;
+      font-weight: 700;
+      background-color: #e91522;
+      border-radius: .3rem;
+    }
+
+    .nav_link_text {
+      line-height: 1.2;
+    }
+  }
+
+  .nav_link:hover .nav_link_text {
+    color: #fc7817;
+  }
+
+  .nav_link:active {
+    border-top-color: #2ca0ff;
+  }
+}

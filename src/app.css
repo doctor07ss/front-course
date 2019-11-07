@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('static/fonts/fontello.eot');
+    src: url('static/fonts/fontello.eot#iefix') format('embedded-opentype'),
+    url('static/fonts/fontello.woff2') format('woff2'),
+    url('static/fonts/fontello.woff') format('woff'),
+    url('static/fonts/fontello.ttf') format('truetype'),
+    url('static/fonts/fontello.svg#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    min-width: 320px;
+    height: 100%;
+    overflow-x: hidden;
+    font-size: 62.5%;
+    text-size-adjust: 100%;
+}
+
+body {
+    min-height: 100vh;
+    padding: 0!important;
+    font-family: Open Sans,sans-serif;
+    background-color: #fff;
+    line-height: 1.25;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    margin: 0;
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+}
